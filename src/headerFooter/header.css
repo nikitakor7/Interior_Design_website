@@ -2,6 +2,9 @@
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-between; /* Ensure space between logo and navigation */
+    padding: 10px 5%; /* Add padding for better spacing */
+    box-sizing: border-box; /* Include padding in element's total width and height */
 }
 
 a {
@@ -9,43 +12,51 @@ a {
     color: black;
 }
 
-.header-logo-text{
+.header-logo-text {
     font-family: 'DM Serif Display';
     font-size: 22px;
-    width: 30%;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin-left: 13%;
+    align-items: center; /* Center align logo and text vertically */
 }
 
-.header-text{
-    width: 80%;
+.header-text {
+    margin-left: 10px; /* Add space between logo and text */
 }
 
 .header-logo {
     display: flex;
-    width: 8%;
     align-items: center;
 }
 
-.header-logo>img{
+.header-logo img {
     width: 100%;
+    max-width: 50px; /* Ensure logo is not too large */
+    height: auto;
 }
 
 .header-pages {
-    width: 55%;
     display: flex;
+    justify-content: center;
+    flex-grow: 1; /* Allow navigation to grow */
 }
 
-.header-pages>ul{
+.header-pages ul {
     list-style-type: none;
     font-family: Jost;
     font-weight: 400;
     display: flex;
-    flex-direction: row;
+    margin: 0;
+    padding: 0;
 }
 
-.header-pages>ul>li{
-    margin-right: 6%;
+.header-pages ul li {
+    margin: 0 15px; /* Add consistent spacing between links */
+}
+
+.header-pages ul li a {
+    padding: 10px 0; /* Add padding for better clickable area */
+}
+
+.header-pages ul li a:hover {
+    color: #007BFF; /* Add hover effect */
 }
