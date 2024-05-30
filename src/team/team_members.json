@@ -1,16 +1,16 @@
 {
   "members": [
     {
-      "fullname": "Nikita Smith",
-      "job": "Designer",
+      "fullname": "Nikita Korgaonkar",
+      "job": "Interior Designer",
       "country": "USA",
-      "photo": "member1.png"
+      "photo": "member2.png"
     },
     {
-      "fullname": "John Doe",
-      "job": "Developer",
-      "country": "Canada",
-      "photo": "member2.jpg"
+      "fullname": "Nandan Sawant",
+      "job": "Project Manager",
+      "country": "USA",
+      "photo": "member1.jpg"
     }
   ]
 }
