@@ -1,4 +1,17 @@
-{"members" : [
-    {"fullname": "Nikita Korgaonkar", "job": "Design", "country": "United States", "image":"m0", "mail":"nikita@sanfran.design"},
-    {"fullname": "Nandan Sawant", "job": "Project Manager", "country": "United States", "image":"m1", "mail":"clients@sanfran.desin"},
-]}
+{
+  "members": [
+    {
+      "fullname": "Nikita Korgaonkar",
+      "job": "Interior Designer",
+      "country": "USA",
+      "photo": "member1.png"
+    },
+    {
+      "fullname": "Nandan Sawant",
+      "job": "Project Manager",
+      "country": "USA",
+      "photo": "member2.jpg"
+    },
+   
+  ]
+}
