@@ -101,8 +101,6 @@ export function Contact() {
               }}
           ></iframe>
       </div>
-
-      </div>
     </div>
   );
 }
