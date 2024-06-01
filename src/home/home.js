@@ -182,7 +182,7 @@ export function Home() {
               </div>
               <div className="hp-pro-detail">
                 <div className="hp-pro-info">
-                  <p className="hp-prj-title">Modern Kitchen</p>
+                  <p className="hp-prj-title">Modern Tiny Kitchen</p>
                   <p className="hp-prj-path">Decor / Architecture</p>
                 </div>
                 <div className="hp-pro-btn">
@@ -201,7 +201,7 @@ export function Home() {
               </div>
               <div className="hp-pro-detail">
                 <div className="hp-pro-info">
-                  <p className="hp-prj-title">Modern Kitchen</p>
+                  <p className="hp-prj-title">Flowy Entryway</p>
                   <p className="hp-prj-path">Decor / Architecture</p>
                 </div>
                 <div className="hp-pro-btn">
@@ -220,7 +220,7 @@ export function Home() {
               </div>
               <div className="hp-pro-detail">
                 <div className="hp-pro-info">
-                  <p className="hp-prj-title">Modern Kitchen</p>
+                  <p className="hp-prj-title">Comfortable Workspace</p>
                   <p className="hp-prj-path">Decor / Architecture</p>
                 </div>
                 <div className="hp-pro-btn">
@@ -239,7 +239,7 @@ export function Home() {
               </div>
               <div className="hp-pro-detail">
                 <div className="hp-pro-info">
-                  <p className="hp-prj-title">Modern Kitchen</p>
+                  <p className="hp-prj-title">Enhancing living rooms on budget</p>
                   <p className="hp-prj-path">Decor / Architecture</p>
                 </div>
                 <div className="hp-pro-btn">
