@@ -256,19 +256,19 @@ export function Home() {
       </div>
       <div className="home-experience">
         <div className="h-years">
-        <CountUp className="h-year num" duration={4} end={12} />
+        <CountUp className="h-year num" duration={4} end={2} />
           <p>Years Of Experience</p>
         </div>
         <div className="h-s-project">
-        <CountUp duration={4} className="h-sp num" end={85} />
+        <CountUp duration={4} className="h-sp num" end={19} />
           <p>Success Project</p>
         </div>
         <div className="h-a-project">
-        <CountUp duration={4} className="h-ap num" end={15} />
+        <CountUp duration={4} className="h-ap num" end={5} />
           <p>Active Project</p>
         </div>
         <div className="h-customers">
-        <CountUp duration={4} className="h-cust num" end={95} />
+        <CountUp duration={4} className="h-cust num" end={30} />
           <p>Happy Customers</p>
         </div>
       </div>
