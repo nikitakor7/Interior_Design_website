@@ -284,45 +284,12 @@ export function Home() {
           It is a long established fact that a reader will be distracted by the
           of readable content of a page when lookings at its layouts
         </p>
-        <div className="articles">
-          <div className="article nochosen" onClick={handleChange}>
-            <div className="article-header">
-              <img src={hArticle1} alt="article"></img>
-            </div>
-            <div className="article-content">
-              <p>Let’s Get Solution For Building Construction Work</p>
-              <div className="ac-detail">
-                <p className="ac-date">3 March 2023</p>
-                <Link to={`/blog-details`}>
-                  <button>
-                    <IoIosArrowForward />
-                  </button>
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="article nochosen" onClick={handleChange}>
-            <div className="article-header">
-              <img src={hArticle2} alt="article"></img>
-            </div>
-            <div className="article-content">
-              <p>Let’s Get Solution For Building Construction Work</p>
-              <div className="ac-detail">
-                <p className="ac-date">3 March 2023</p>
-                <Link to={`/blog-details`}>
-                  <button>
-                    <IoIosArrowForward />
-                  </button>
-                </Link>
-              </div>
-            </div>
-          </div>
           <div className="article nochosen" onClick={handleChange}>
             <div className="article-header">
               <img src={hArticle3} alt="article"></img>
             </div>
             <div className="article-content">
-              <p>Let’s Get Solution For Building Construction Work</p>
+              <p>Understanding Sustainable Interior Design</p>
               <div className="ac-detail">
                 <p className="ac-date">3 March 2023</p>
                 <Link to={`/blog-details`}>
@@ -336,7 +303,7 @@ export function Home() {
         </div>
       </div>
       <div className="h-interno">
-        <h1>Wanna join the San Fran Design?</h1>
+        <h1>Want to join the San Fran Design?</h1>
         <p>We are always looking out for amazing designers like yourself.</p>
         <Link to={`/contact`}>
           <button>
