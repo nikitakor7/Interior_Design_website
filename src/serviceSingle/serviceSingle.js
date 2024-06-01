@@ -91,19 +91,19 @@ export function ServiceSingle() {
       </div>
       <div className="experience">
         <div className="years">
-          <p className="year num">12</p>
+          <p className="year num">2</p>
           <p>Years Of Experience</p>
         </div>
         <div className="s-project">
-          <p className="sp num">85</p>
+          <p className="sp num">19</p>
           <p>Successful Projects</p>
         </div>
         <div className="a-project">
-          <p className="ap num">15</p>
+          <p className="ap num">3</p>
           <p>Active Projects</p>
         </div>
         <div className="customers">
-          <p className="cust num">95</p>
+          <p className="cust num">30</p>
           <p>Happy Customers</p>
         </div>
       </div>
