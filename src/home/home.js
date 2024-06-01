@@ -22,8 +22,8 @@ import brand2 from "../images/brand2.svg";
 import brand3 from "../images/brand3.svg";
 import brand4 from "../images/brand4.svg";
 import brand5 from "../images/brand5.svg";
-import customer1 from "../images/home/customer1.jpg";
-import customer2 from "../images/home/customer2.jpg";
+import customer1 from "../images/home/customer1.png";
+import customer2 from "../images/home/customer2.png";
 import customer3 from "../images/home/customer.jpg";
 
 
