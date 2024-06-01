@@ -70,7 +70,7 @@ export function Blog() {
               </p>
             </div>
             <div className="ln-detail">
-              <p className="ac-date">3 March 2023</p>
+              <p className="ac-date">3 March 2024</p>
               <Link to={`/blog-details`}>
                 <button>
                   <IoIosArrowForward />
@@ -86,39 +86,7 @@ export function Blog() {
         <div className="blog-art-list">
           <div className="blog-art notaken" onClick={handleChange}>
             <div className="blog-art-header">
-              <img src={article1} alt="article"></img>
-            </div>
-            <div className="blog-art-content">
-              <p>Let’s Get Solution For Building Construction Work</p>
-              <div className="ba-detail">
-                <p className="ba-date">3 March 2023</p>
-                <Link to={`/blog-details`}>
-                  <button>
-                    <IoIosArrowForward />
-                  </button>
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="blog-art notaken" onClick={handleChange}>
-            <div className="blog-art-header">
-              <img src={article1} alt="article"></img>
-            </div>
-            <div className="blog-art-content">
-              <p>Let’s Get Solution For Building Construction Work</p>
-              <div className="ba-detail">
-                <p className="ba-date">3 March 2023</p>
-                <Link to={`/blog-details`}>
-                  <button>
-                    <IoIosArrowForward />
-                  </button>
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="blog-art notaken" onClick={handleChange}>
-            <div className="blog-art-header">
-              <img src={article1} alt="article"></img>
+              <img src={article1} alt="article"></img>`
             </div>
             <div className="blog-art-content">
               <p>Let’s Get Solution For Building Construction Work</p>
