@@ -9,57 +9,37 @@ import ReactPlayer from "react-player/youtube";
 import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
 
-
 export function ServiceSingle() {
   return (
     <div className="serviceSingle">
       <div className="serviceS-header">
         <h1>
-          Service Single<p>Home / Service Single</p>
+          Service Single
+          <p>Home / Service Single</p>
         </h1>
       </div>
       <div className="serviceS-info">
         <div className="ss-info-detail">
-          <h1>We set the trends of modern living Services.</h1>
+          <h1>Leading the Trends in Modern Living Services</h1>
           <p>
             <span>
-              It is a long established fact that a reader will be distracted by
-              the of readable content of a page{" "}
+              Our mission is to deliver exceptional design services that transform spaces into functional and aesthetically pleasing environments.
             </span>
             <br />
             <br />
-            when lookings at its layouts the points spriof using that it has a
-            more less normal.A wonderful serenity has taken pgossession of my
-            entire soul, like thesce sweet morndsings of sphring which I enjoy
-            with my forwhole heart. I am alone, and feel the charm of
-            excgistence in this spot, which was created for the bliss of souls
-            like mine. <br />
+            At San Fran Design, we take pride in our comprehensive approach, which includes initial consultation, concept development, detailed planning, project management, and final execution. Our experienced team ensures every project is completed to the highest standards, on time, and within budget.
             <br />
-            When lookings at its layouts the points spriof using that it has a
-            more less normal.A wonderful serenity has taken pgossession of my
-            entire soul, like thesce sweet morndsings of sphring which I enjoy
-            with my forwhole heart. I am alone, and feel the charm of
-            excgistence in this spot, which was created for the bliss of souls
-            like mine.
+            <br />
+            From modern minimalism to classic elegance, we tailor our services to meet the unique needs and preferences of each client, creating spaces that are both beautiful and practical.
           </p>
         </div>
         <div className="ss-info-brands">
           <ul>
-            <ol>
-              <img src={brand1} alt="brand"></img>
-            </ol>
-            <ol>
-              <img src={brand2} alt="brand"></img>
-            </ol>
-            <ol>
-              <img src={brand3} alt="brand"></img>
-            </ol>
-            <ol>
-              <img src={brand4} alt="brand"></img>
-            </ol>
-            <ol>
-              <img src={brand5} alt="brand"></img>
-            </ol>
+            <li><img src={brand1} alt="Brand 1" /></li>
+            <li><img src={brand2} alt="Brand 2" /></li>
+            <li><img src={brand3} alt="Brand 3" /></li>
+            <li><img src={brand4} alt="Brand 4" /></li>
+            <li><img src={brand5} alt="Brand 5" /></li>
           </ul>
         </div>
         <div className="ss-info-video">
@@ -74,56 +54,59 @@ export function ServiceSingle() {
         </div>
         <div className="ss-pointers">
           <div className="ss-pointer one">
-            <h1>Use of Interior</h1>
+            <h1>Our Interior Design Services</h1>
             <ul>
-              <li>We provide high quality design services.</li>
-              <li>Project on time and Latest Design.</li>
-              <li>Scientific Skills For getting a better result.</li>
-              <li>Renovations Benefit of Service.</li>
-              <li>We are confident about our projects.</li>
+              <li>High-quality design services tailored to your needs.</li>
+              <li>Projects delivered on time with the latest design trends.</li>
+              <li>Expertise in scientific principles for optimal results.</li>
+              <li>Comprehensive renovation services.</li>
+              <li>Confidence in our project outcomes.</li>
             </ul>
           </div>
           <div className="ss-pointer two">
-            <h1>Make an Art</h1>
+            <h1>Creating Artful Spaces</h1>
             <ul>
-              <li>We provide high quality design services.</li>
-              <li>Project on time and Latest Design.</li>
-              <li>Scientific Skills For getting a better result.</li>
-              <li>Renovations Benefit of Service.</li>
-              <li>We are confident about our projects.</li>
+              <li>Innovative design solutions for unique spaces.</li>
+              <li>Timely project delivery with cutting-edge designs.</li>
+              <li>Application of scientific methods for superior results.</li>
+              <li>Expert renovation services for all types of projects.</li>
+              <li>Dedicated to achieving excellence in every project.</li>
             </ul>
           </div>
         </div>
         <div className="go-portfolio">
-            <div className="gp-img">
-                <img src={servicePhoto} alt="service"></img>
-            </div>
-            <div className="gp-text">
-                <h1>We love design.That's how we got here.</h1>
-                <p>It is a long established fact that a reader will be distracted by the of readable content .</p>
-                <Link to={`/ourportfolio`}><button>Our Portfolio <BsArrowRight style={{marginLeft:"2%", color:"#CDA274"}} /></button></Link>
-            </div>
+          <div className="gp-img">
+            <img src={servicePhoto} alt="Service" />
+          </div>
+          <div className="gp-text">
+            <h1>Our Passion for Design Drives Us</h1>
+            <p>We are committed to creating spaces that inspire and delight. Explore our portfolio to see our work in action.</p>
+            <Link to="/ourportfolio">
+              <button>
+                Our Portfolio <BsArrowRight style={{ marginLeft: "2%", color: "#CDA274" }} />
+              </button>
+            </Link>
+          </div>
         </div>
-        
       </div>
       <div className="experience">
-            <div className="years">
-                <p className="year num">12</p>
-                <p>Years Of Experience</p>
-            </div>
-            <div className="s-project">
-                <p className="sp num">85</p>
-                <p>Success Project</p>
-            </div>
-            <div className="a-project">
-                <p className="ap num">15</p>
-                <p>Active Project</p>
-            </div>
-            <div className="customers">
-                <p className="cust num">95</p>
-                <p>Happy Customers</p>
-            </div>
+        <div className="years">
+          <p className="year num">12</p>
+          <p>Years Of Experience</p>
         </div>
+        <div className="s-project">
+          <p className="sp num">85</p>
+          <p>Successful Projects</p>
+        </div>
+        <div className="a-project">
+          <p className="ap num">15</p>
+          <p>Active Projects</p>
+        </div>
+        <div className="customers">
+          <p className="cust num">95</p>
+          <p>Happy Customers</p>
+        </div>
+      </div>
     </div>
   );
 }
