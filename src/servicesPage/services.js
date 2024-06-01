@@ -70,8 +70,7 @@ export function Services() {
         <div className="how-title">
           <h1>How We Work</h1>
           <p>
-            It is a long established fact will be distracted.Lorem Ipsum is
-            simply dummy text of the printing and typesetting industry.
+              Our collaborative process begins with an initial consultation to understand your vision, followed by concept development, detailed planning, procurement, implementation, styling, and a final review, ensuring a seamless journey to bring your space to life
           </p>
         </div>
         <div className="how-content">
@@ -85,7 +84,7 @@ export function Services() {
                 </div>
                 <div className="hc-subtext">
                     <h2>Concept & Details</h2>
-                    <p>It is a long established fact  will be distracted. Lorem Ipsum is simply dummy from text of the and typesetting indufstry. </p>
+                    <p>In our design process, we meticulously craft both overarching concepts and intricate details to ensure a cohesive and visually stunning outcome.</p>
                 </div>
             </div>
         </div>
@@ -98,7 +97,7 @@ export function Services() {
                 </div>
                 <div className="hc-subtext">
                     <h2>Idea for work</h2>
-                    <p>It is a long established fact  will be distracted. Lorem Ipsum is simply dummy from text of the and typesetting indufstry. </p>
+                    <p>Crafting innovative and practical solutions tailored to meet the unique needs and aspirations of our clients. </p>
                 </div>
             </div>
             <div className="hc-img">
@@ -117,7 +116,7 @@ export function Services() {
                 </div>
                 <div className="hc-subtext">
                     <h2>Design</h2>
-                    <p>It is a long established fact  will be distracted. Lorem Ipsum is simply dummy from text of the and typesetting indufstry. </p>
+                    <p>Our company's design principles are rooted in a commitment to timeless elegance, functionality, and personalized attention to detail, ensuring every project reflects our clients' individual style and enhances their living experience </p>
                 </div>
             </div>
         </div>
@@ -130,7 +129,7 @@ export function Services() {
                 </div>
                 <div className="hc-subtext">
                     <h2>Perfection</h2>
-                    <p>It is a long established fact  will be distracted. Lorem Ipsum is simply dummy from text of the and typesetting indufstry. </p>
+                    <p>Achieving perfection is an ongoing pursuit characterized by meticulous attention to detail, continuous refinement, openness to feedback, and a commitment to excellence in every aspect of our work. </p>
                 </div>
             </div>
             <div className="hc-img">
@@ -140,8 +139,8 @@ export function Services() {
       </div>
 
       <div className="interno">
-        <h1>Wanna join the interno?</h1>
-        <p>It is a long established fact  will be distracted.</p>
+        <h1>Want to join San Fran Design?</h1>
+        <p>Always looking for passionate interior designers to join our team</p>
         <Link><button>Contact With Us<AiOutlineArrowRight style={{ marginLeft: "5px"  }} color="#292F36" /></button></Link>
       </div>
     </div>
