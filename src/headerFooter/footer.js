@@ -19,14 +19,13 @@ export function Footer() {
                 <img src={logo} alt="logo"></img>
               </div>
               <div className="f-text">
-                <p>Interno</p>
+                <p>San Fran Design</p>
               </div>
             </Link>
           </div>
           <div className="f-about-text">
             <p>
-              It is a long established fact that a reader will be distracted
-              lookings.
+              Re-imagine design with technology
             </p>
           </div>
           <div className="f-smedia">
@@ -96,11 +95,11 @@ export function Footer() {
         </section>
         <section className="f-contact">
           <p>Contact</p>
-          <p>55 East Birchwood Ave. Brooklyn, New York 11201</p>
+          <p>1550 Mission St, San Francisco CA 94103</p>
           <p>
-            <a href="mailto: contact@interno.com">contact@interno.com</a>
+            <a href="mailto: clients@sanfran.design">clients@sanfran.design</a>
           </p>
-          <p>+(123) 456 - 7890</p>
+          <p>+(650) 458 - 7514</p>
         </section>
       </div>
       <div className="terms">
@@ -120,7 +119,7 @@ export function Footer() {
         </ul>
       </div>
       <div className="f-copyright">
-        <p>Copyright © Interno | Designed by Jafarli</p>
+        <p>Copyright © San Fran Desin | Made by ❤️ in SF</p>
       </div>
     </div>
   );
