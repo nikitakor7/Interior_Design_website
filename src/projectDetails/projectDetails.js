@@ -39,11 +39,9 @@ export function ProjectDetails() {
         <div className="d-project-info">
           <h2>Minimal Look Bedrooms</h2>
           <p>
-            Experience the essence of simplicity and sophistication with our Minimal Look Bedrooms. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sem vitae turpis dignissim maximus. Aliquam sollicitudin tellus massa, vel maximus purus posuere in. Donec gravida dignissim. Present at nibh in mi fringilla mattis. Phasellus ut dolor odio. Aenean in ipsum vel lectus bibendum commodo.
+            Experience the essence of simplicity and sophistication with our Minimal Look Bedrooms. We will work with you in creating the most beautiful, elegant and comfortable bedrooms.
             <br />
-            <br />
-            Immerse yourself in a space characterized by tranquility and refined aesthetics. In nec sem suscipit, convallis leo vitae, lacinia nibh. Cras amet tellus lectus. Vivamus ipsum nunc, mattis quis nibh id, pellentesque arcu. Donec a pellentesque. Cras erat enim, gravida non ante vitae, eleifend euismod lectus. Proin tincidunt ligula id purus porttitor.
-          </p>
+            Immerse yourself in a space characterized by tranquility and refined aesthetics.
         </div>
       </div>
       <div className="zoomRoom">
