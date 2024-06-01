@@ -77,7 +77,7 @@ export function Footer() {
           <p>Services</p>
           <ul>
             <li>
-              <Link to={`/serviceSingle`}>Kitchan</Link>
+              <Link to={`/serviceSingle`}>Kitchen</Link>
             </li>
             <li>
               <Link to={`/serviceSingle`}>Living Area</Link>
