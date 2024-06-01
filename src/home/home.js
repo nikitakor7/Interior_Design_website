@@ -284,6 +284,7 @@ export function Home() {
           It is a long established fact that a reader will be distracted by the
           of readable content of a page when lookings at its layouts
         </p>
+        <div className="articles">
           <div className="article nochosen" onClick={handleChange}>
             <div className="article-header">
               <img src={hArticle3} alt="article"></img>
