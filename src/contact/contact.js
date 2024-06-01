@@ -88,18 +88,20 @@ export function Contact() {
         </div>
       </div>
       <div className="map">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97236.62360572393!2d49.78474799369314!3d40.394571267599446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d6bd6211cf9%3A0x343f6b5e7ae56c6b!2sBaku!5e0!3m2!1sen!2saz!4v1677357758009!5m2!1sen!2saz"
-          title="map"
-          style={{
-            frameborder: "0",
-            allowfullscreen: "",
-            ariaHidden: "false",
-            tabindex: "0",
-            width: "800px",
-            height: "350px",
-          }}
-        ></iframe>
+          <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.265149633335!2d-122.41774318425172!3d37.77264067975908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085817cd0b0aaab%3A0xa0c6e7d784b8c4ed!2s1550%20Mission%20St%2C%20San%20Francisco%2C%20CA%2094103%2C%20USA!5e0!3m2!1sen!2sus!4v1620307021045!5m2!1sen!2sus"
+              title="map"
+              style={{
+                  border: "0",
+                  width: "800px",
+                  height: "350px",
+                  allowFullScreen: "",
+                  ariaHidden: "false",
+                  tabIndex: "0"
+              }}
+          ></iframe>
+      </div>
+
       </div>
     </div>
   );
