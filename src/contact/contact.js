@@ -26,7 +26,7 @@ export function Contact() {
                 <span className="icon">
                   <HiOutlineMail />
                 </span>
-                <a href="mailto: info@yourdomain.com">info@yourdomain.com</a>
+                <a href="mailto: clients@sanfran.design">clients@sanfran.design</a>
               </p>
               <p>
                 <span className="icon">
@@ -38,7 +38,7 @@ export function Contact() {
                 <span className="icon">
                   <GiWorld />
                 </span>
-                <a href="www.yourdomain.com">www.yourdomain.com</a>
+                <a href="www.yourdomain.com">www.sanfran.design</a>
               </p>
             </div>
             <div className="contact-smedias">
