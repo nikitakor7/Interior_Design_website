@@ -1,8 +1,28 @@
-{"services" : [
-    {"service_name": "Project Plan", "service_content": "There are many variations of the passages of lorem Ipsum from available, majority."},
-    {"service_name": "Interior Work", "service_content": "There are many variations of the passages of lorem Ipsum from available, majority."},
-    {"service_name": "Retail Design", "service_content": "There are many variations of the passages of lorem Ipsum from available, majority."},
-    {"service_name": "2d/3d Art Work", "service_content": "There are many variations of the passages of lorem Ipsum from available, majority."},
-    {"service_name": "Interior Work", "service_content": "There are many variations of the passages of lorem Ipsum from available, majority."},
-    {"service_name": "Decoration Work", "service_content": "There are many variations of the passages of lorem Ipsum from available, majority."}
-]}
+{
+  "services": [
+    {
+      "service_name": "Project Plan",
+      "service_content": "Our Project Plan service offers a variety of content to suit your needs."
+    },
+    {
+      "service_name": "Interior Work",
+      "service_content": "For Interior Work, we provide tailored content options."
+    },
+    {
+      "service_name": "Retail Design",
+      "service_content": "Our Retail Design service offers customized design solutions."
+    },
+    {
+      "service_name": "2D/3D Art Work",
+      "service_content": "Our 2D/3D Art Work service provides creative solutions for your projects."
+    },
+    {
+      "service_name": "Interior Work",
+      "service_content": "Our Interior Work service offers personalized design options."
+    },
+    {
+      "service_name": "Decoration Work",
+      "service_content": "Our Decoration Work service provides customized decoration solutions."
+    }
+  ]
+}
