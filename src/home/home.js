@@ -43,7 +43,7 @@ export function Home() {
       <div className="homeNews" style={{ backgroundImage: `url(${photoBg})` }}>
         <h1>Let Your Home Be Unique</h1>
         <p>
-         Unlock a world of possibilities to elevate your space. With countless variations of inspiring designs and concepts, Lorem Ipsum offers an array of choices to suit every taste.
+         Unlock a world of possibilities to elevate your space. With countless variations of inspiring designs and concepts.
         </p>
         <Link to="">
           <button>
