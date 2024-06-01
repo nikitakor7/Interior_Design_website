@@ -37,7 +37,7 @@ export function BlogDetails() {
       <div className="blogD-header"></div>
       <div className="blogDetailsAll">
         <div className="blog-content">
-          <h1>Let's Get Solution for Building Construction Work</h1>
+          <h1>Understanding Sustainable Interior Design</h1>
           <div className="bc-photo">
             <img src={photo1} alt="blog"></img>
           </div>
@@ -47,16 +47,24 @@ export function BlogDetails() {
           </div>
           <div className="bc-text t1">
             <p>
-              Lorem ipsum dolor sit amet, adipiscing Aliquam eu sem vitae
-              turpmaximus.posuere in.Contrary to popular belief.There are many
-              variations of passages of Lorem Ipsum available, but the majority
-              have suffered alteration in some form, by injecthumour, or
-              randomised words which don't look even slightly believable.
-              <br />
-              <br />
-              Embarrassing hidden in the middle of text. All the Lorem Ipsum
-              generators on the Internet tend to repeat predefined chunks as
-              necessary.
+              Sustainable interior design is about more than just choosing eco-friendly materials or energy-efficient appliances. It's a holistic approach that takes into account the entire lifecycle of a space, from conception to demolition. It encompasses principles of environmental responsibility, social equity, and economic viability, aiming to create spaces that are healthy, functional, and environmentally friendly.
+
+              Key Principles of Sustainable Interior Design
+              Material Selection: One of the most significant aspects of sustainable interior design is the choice of materials. Opting for renewable, recycled, or locally sourced materials can help reduce the environmental impact of a project. From reclaimed wood flooring to non-toxic paints and finishes, there are countless options available that prioritize sustainability without sacrificing style or quality.
+              
+              Energy Efficiency: Energy consumption is a major contributor to environmental degradation, so it's essential to prioritize energy-efficient design strategies. This includes incorporating natural lighting, maximizing insulation, and selecting energy-efficient appliances and lighting fixtures. By reducing energy consumption, sustainable interior design not only minimizes environmental impact but also lowers operating costs for homeowners and businesses.
+              
+              Water Conservation: Water scarcity is a growing concern in many parts of the world, making water conservation a critical aspect of sustainable interior design. Choosing low-flow plumbing fixtures, implementing rainwater harvesting systems, and incorporating drought-tolerant landscaping are just a few ways to reduce water usage and promote conservation in the built environment.
+              
+              Waste Reduction: Construction and demolition waste are significant contributors to landfill pollution, so minimizing waste should be a priority in sustainable interior design. This can be achieved through careful planning, recycling and reusing materials whenever possible, and implementing strategies to reduce packaging waste during construction and renovation projects.
+              
+              Indoor Air Quality: Indoor air quality has a profound impact on human health and well-being, so sustainable interior design prioritizes strategies to improve air quality and reduce exposure to harmful pollutants. This includes choosing low-VOC (volatile organic compound) materials, incorporating natural ventilation systems, and selecting indoor plants that help purify the air.
+              
+              The Benefits of Sustainable Interior Design
+              Embracing sustainability in interior design offers a multitude of benefits, both for individuals and the planet as a whole. From reducing carbon emissions and conserving natural resources to creating healthier, more livable spaces, the advantages of sustainable design are clear. Additionally, sustainable design can enhance the aesthetic appeal and value of a property, making it a wise investment for homeowners and businesses alike.
+              
+              Conclusion
+              As we strive to build a more sustainable future, the role of interior designers has never been more crucial. By embracing principles of environmental responsibility, social equity, and economic viability, designers have the power to shape spaces that not only look beautiful but also promote the health and well-being of occupants and the planet. From material selection to energy efficiency, every decision counts in the journey towards sustainability in interior design. Together, we can create spaces that inspire, nurture, and endure for generations to come.
             </p>
           </div>
           <div className="blogD-quotes">
