@@ -38,7 +38,7 @@ export function Contact() {
                 <span className="icon">
                   <GiWorld />
                 </span>
-                <a href="www.yourdomain.com">www.sanfran.design</a>
+                <a href="https://sanfran.design">https://sanfran.design</a>
               </p>
             </div>
             <div className="contact-smedias">
