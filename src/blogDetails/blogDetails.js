@@ -185,15 +185,15 @@ export function BlogDetails() {
           <div className="latest-news">
             <h2>Latest News</h2>
             <div className="news">
-              <Link to={`/blog-details`}><p className="news-title">We Focus On Comfort And Gorgeous</p></Link>
+              <Link to={`/blog-details`}><p className="news-title">Focus on Eco-design</p></Link>
               <p className="news-date">28/02/2023</p>
             </div>
             <div className="news">
-            <Link to={`/blog-details`}><p className="news-title">We Focus On Comfort And Gorgeous</p></Link>
+            <Link to={`/blog-details`}><p className="news-title">Focus on comfort and reliability</p></Link>
               <p className="news-date">28/02/2023</p>
             </div>
             <div className="news">
-            <Link to={`/blog-details`}><p className="news-title">We Focus On Comfort And Gorgeous</p></Link>
+            <Link to={`/blog-details`}><p className="news-title">Sustainable housing</p></Link>
               <p className="news-date">28/02/2023</p>
             </div>
           </div>
