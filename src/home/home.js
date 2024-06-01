@@ -22,7 +22,10 @@ import brand2 from "../images/brand2.svg";
 import brand3 from "../images/brand3.svg";
 import brand4 from "../images/brand4.svg";
 import brand5 from "../images/brand5.svg";
-import customer1 from "../images/home/customer.jpg";
+import customer1 from "../images/home/customer1.jpg";
+import customer2 from "../images/home/customer2.jpg";
+import customer3 from "../images/home/customer.jpg";
+
 
 export function Home() {
   const handleChange = (e) => {
@@ -133,11 +136,14 @@ export function Home() {
           <h1>What People Think About Us</h1>
           <div className="people">
             {thoughts.people.map((req, ind) => {
+              let pic = customer1;
+              if (ind == 1) pic = customer2;
+              if (ind == 2) pic = customer3;
               return (
                 <div className="person" key={ind}>
                   <div className="person-title">
                     <div>
-                      <img src={customer1} alt="customer"></img>
+                      <img src={pic} alt="customer"></img>
                     </div>
                     <p>
                       {req.fullname}
