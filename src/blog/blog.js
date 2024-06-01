@@ -89,7 +89,7 @@ export function Blog() {
               <img src={article1} alt="article"></img>`
             </div>
             <div className="blog-art-content">
-              <p>Let’s Get Solution For Building Construction Work</p>
+              <p>Understanding Sustainable Interior Design</p>
               <div className="ba-detail">
                 <p className="ba-date">3 March 2023</p>
                 <Link to={`/blog-details`}>
@@ -100,56 +100,6 @@ export function Blog() {
               </div>
             </div>
           </div>
-          <div className="blog-art notaken" onClick={handleChange}>
-            <div className="blog-art-header">
-              <img src={article1} alt="article"></img>
-            </div>
-            <div className="blog-art-content">
-              <p>Let’s Get Solution For Building Construction Work</p>
-              <div className="ba-detail">
-                <p className="ba-date">3 March 2023</p>
-                <Link to={`/blog-details`}>
-                  <button>
-                    <IoIosArrowForward />
-                  </button>
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="blog-art notaken" onClick={handleChange}>
-            <div className="blog-art-header">
-              <img src={article1} alt="article"></img>
-            </div>
-            <div className="blog-art-content">
-              <p>Let’s Get Solution For Building Construction Work</p>
-              <div className="ba-detail">
-                <p className="ba-date">3 March 2023</p>
-                <Link to={`/blog-details`}>
-                  <button>
-                    <IoIosArrowForward />
-                  </button>
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="blog-art notaken" onClick={handleChange}>
-            <div className="blog-art-header">
-              <img src={article1} alt="article"></img>
-            </div>
-            <div className="blog-art-content">
-              <p>Let’s Get Solution For Building Construction Work</p>
-              <div className="ba-detail">
-                <p className="ba-date">3 March 2023</p>
-                <Link to={`/blog-details`}>
-                  <button>
-                    <IoIosArrowForward />
-                  </button>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   );
 }
