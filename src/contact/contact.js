@@ -32,7 +32,7 @@ export function Contact() {
                 <span className="icon">
                   <BsTelephone />
                 </span>
-                +1 (378) 400-1234
+                +1 (650) 458-7514
               </p>
               <p>
                 <span className="icon">
