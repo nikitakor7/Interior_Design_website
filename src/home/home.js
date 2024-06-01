@@ -43,8 +43,7 @@ export function Home() {
       <div className="homeNews" style={{ backgroundImage: `url(${photoBg})` }}>
         <h1>Let Your Home Be Unique</h1>
         <p>
-          There are many variations of the passages of lorem Ipsum
-          fromavailable,variations of the passages.
+         Unlock a world of possibilities to elevate your space. With countless variations of inspiring designs and concepts, Lorem Ipsum offers an array of choices to suit every taste.
         </p>
         <Link to="">
           <button>
@@ -76,22 +75,21 @@ export function Home() {
         </div>
         <div className="homeAboutUs">
             <div className="hp-subtext">
-              <h1>We Create The Art Of Stylish Living Stylishly</h1>
+              <h1>Crafting Stylish Living: Where Art Meets Functionality</h1>
               <p>
-                It is a long established fact that a reader will be distracted
-                by the of readable content of a page when lookings at its
-                layouts the points of using that it has a more-or-less normal.
+                Experience the essence of refined living through our bespoke creations. 
+                Amidst the allure of captivating layouts, we ensure that every detail speaks volumes of timeless elegance and functionality.
               </p>
               <div className="callUs">
           <div className="phoneNum">
             <p className="h-icon">
               <BsTelephone />
             </p>
-            <a href="tel: +994 (070) 883-37-38">
+            <a href="tel: +1 (650) 458-7514">
               <p>
-                +994 (070) 883-37-38
+                +1 (650) 458-7514
                 <br />
-                <span>Call Us Anytime</span>
+                <span>Talk to me 9am to 5pm PST </span>
               </p>
             </a>
             <br />
@@ -173,10 +171,9 @@ export function Home() {
           </ul>
         </div>
         <div className="homeProjects">
-          <h1>Follow Our Projects</h1>
+          <h1>Explore Our Latest Projects</h1>
           <p>
-            It is a long established fact that a reader will be distracted by
-            the of readable content of a page lookings at its layouts.
+            Dive into our portfolio where captivating designs await your discovery. Amidst the captivating layouts, immerse yourself in a world of inspired creations.
           </p>
           <div className="hp-list">
             <div className="hp-project">
@@ -333,8 +330,8 @@ export function Home() {
         </div>
       </div>
       <div className="h-interno">
-        <h1>Wanna join the interno?</h1>
-        <p>It is a long established fact will be distracted.</p>
+        <h1>Wanna join the San Fran Design?</h1>
+        <p>We are always looking out for amazing designers like yourself.</p>
         <Link to={`/contact`}>
           <button>
             Contact With Us
