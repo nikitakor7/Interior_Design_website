@@ -42,7 +42,7 @@ export function ProjectDetails() {
             Experience the essence of simplicity and sophistication with our Minimal Look Bedrooms. We will work with you in creating the most beautiful, elegant and comfortable bedrooms.
             <br />
             Immerse yourself in a space characterized by tranquility and refined aesthetics.
-          <p>
+        </p>
         </div>
       </div>
       <div className="zoomRoom">
