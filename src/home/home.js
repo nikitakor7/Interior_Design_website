@@ -281,8 +281,7 @@ export function Home() {
       <div className="articleNews">
         <h1>Articles & News</h1>
         <p>
-          It is a long established fact that a reader will be distracted by the
-          of readable content of a page when lookings at its layouts
+          Welcome! Here we keep you updated with the latest design trends
         </p>
         <div className="articles">
           <div className="article nochosen" onClick={handleChange}>
