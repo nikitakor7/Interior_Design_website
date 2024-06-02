@@ -7,7 +7,7 @@ export function ProjectCard(props) {
     return(
         <div className="op-project">
           <div className="op-pro-img">
-            <img src={"../images/project/project1.jpg"} alt="project"></img>
+            <img src={project1} alt="project"></img>
           </div>
           <div className="op-pro-detail">
             <div className="op-pro-info">
