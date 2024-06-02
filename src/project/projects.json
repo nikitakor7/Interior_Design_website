@@ -1,10 +1,10 @@
 {"projects": [
     {"project_name":"Minimal Bedroom" , "id":1},
     {"project_name":"Modern Bedroom", "id":2},
-    {"project_name":"Classsic Minimal Bedroom", "id":3},
-    {"project_name":"System Table", "id":4},
-    {"project_name":"Minimal Bedroom Table", "id":5},
-    {"project_name":"Modern Bedroom", "id":6},
+    {"project_name":"Classsic Minimal Bedroom", "id":4},
+    {"project_name":"System Table", "id":3},
+    {"project_name":"Minimal Bedroom Table", "id":6},
+    {"project_name":"Modern Bedroom", "id":5},
     {"project_name":"Minimal Bedroom", "id":7},
     {"project_name":"Minimal Bedroom", "id":8}
 ]}
