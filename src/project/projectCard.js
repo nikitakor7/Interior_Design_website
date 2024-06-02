@@ -15,9 +15,7 @@ export function ProjectCard(props) {
     return(
         <div className="op-project">
           <div className="op-pro-img">
-            let ind = props.key;
-            let image_to_pick = `project${ind}`;
-            <img src=image_to_pick alt="project"></img>
+            <img src={`project${props.key}`} alt="project" />
           </div>
           <div className="op-pro-detail">
             <div className="op-pro-info">
