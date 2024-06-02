@@ -15,13 +15,16 @@ const projectImages = [project1, project2, project3, project4, project5, project
 
 export function ProjectCard(props) {
     const imageIndex = parseInt(props.key); // Assuming props.key starts from 1
-    const imageSrc = projectImages[imageIndex];
+    console.log(imageIndex);
+    console.log(projectImages[imageIndex]);
+    //let imageSrc = projectImages[imageIndex];
+    let imageSrc = project2;
     
     return(
         <div className="op-project">
           <div className="op-pro-img">
             {/* Correctly set the src attribute with the dynamic image source */}
-            <img src={project2} alt="project" />
+            <img src={imageSrc} alt="project" />
           </div>
           <div className="op-pro-detail">
             <div className="op-pro-info">
