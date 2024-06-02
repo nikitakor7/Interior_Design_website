@@ -1,6 +1,6 @@
 import "./team.css";
-import m0 from "../images/team/member1.png";
-import m1 from "../images/team/member2.jpg";
+import m1 from "../images/team/member1.png";
+import m0 from "../images/team/member2.jpg";
 import data from "./team_members.json";
 import { FaFacebookF, FaTwitter, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
