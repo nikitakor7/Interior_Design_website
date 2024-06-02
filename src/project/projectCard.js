@@ -20,6 +20,7 @@ export function ProjectCard(props) {
     return(
         <div className="op-project">
           <div className="op-pro-img">
+            {/* Correctly set the src attribute with the dynamic image source */}
             <img src={imageSrc} alt="project" />
           </div>
           <div className="op-pro-detail">
