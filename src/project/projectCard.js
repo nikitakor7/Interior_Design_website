@@ -14,14 +14,14 @@ import { IoIosArrowForward } from "react-icons/io";
 const projectImages = [project1, project2, project3, project4, project5, project6, project7, project8];
 
 export function ProjectCard(props) {
-    const imageIndex = parseInt(props.key) - 1; // Assuming props.key starts from 1
+    const imageIndex = parseInt(props.key); // Assuming props.key starts from 1
     const imageSrc = projectImages[imageIndex];
     
     return(
         <div className="op-project">
           <div className="op-pro-img">
             {/* Correctly set the src attribute with the dynamic image source */}
-            <img src={imageSrc} alt="project" />
+            <img src={project1} alt="project" />
           </div>
           <div className="op-pro-detail">
             <div className="op-pro-info">
