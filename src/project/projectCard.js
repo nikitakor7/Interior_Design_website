@@ -11,11 +11,16 @@ import project8 from "../images/project/project8.jpg";
 import { Link } from "react-router-dom";
 import { IoIosArrowForward } from "react-icons/io";
 
+const projectImages = [project1, project2, project3, project4, project5, project6, project7, project8];
+
 export function ProjectCard(props) {
+    const imageIndex = parseInt(props.key) - 1; // Assuming props.key starts from 1
+    const imageSrc = projectImages[imageIndex];
+    
     return(
         <div className="op-project">
           <div className="op-pro-img">
-            <img src={`project${props.key}`} alt="project" />
+            <img src={imageSrc} alt="project" />
           </div>
           <div className="op-pro-detail">
             <div className="op-pro-info">
