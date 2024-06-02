@@ -14,11 +14,8 @@ import { IoIosArrowForward } from "react-icons/io";
 const projectImages = [project1, project2, project3, project4, project5, project6, project7, project8];
 
 export function ProjectCard(props) {
-    const imageIndex = parseInt(props.props.id); // Assuming props.key starts from 1
-    console.log(imageIndex);
-    console.log(projectImages[imageIndex]);
-    //let imageSrc = projectImages[imageIndex];
-    let imageSrc = project2;
+    const imageIndex = parseInt(props.props.id) - 1; // Assuming props.key starts from 1
+    let imageSrc = projectImages[imageIndex];
     
     return(
         <div className="op-project">
